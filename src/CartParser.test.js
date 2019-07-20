@@ -1,7 +1,5 @@
 import fs from "fs";
-import v4 from "uuid";
 import CartParser from "./CartParser";
-const uuidString = "uuid";
 
 let parser, parse, readFile, validate, parseLine, calcTotal, createError;
 
